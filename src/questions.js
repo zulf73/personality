@@ -5,51 +5,23 @@ let questions = [
     title: "I am outgoing and sociable",
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
-        text: "5"
-      }
-    ]
-  },
-  {
-    type: "radiogroup",
-    name: "question30",
-    title: "I am helpful and unselfish with others",
-    hasOther: true,
-    choices: [
-      {
-        value: "item1",
-        text: "1"
-      },
-      {
-        value: "item2",
-        text: "i2"
-      },
-      {
-        value: "item3",
-        text: "3"
-      },
-      {
-        value: "item4",
-        text: "4"
-      },
-      {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
@@ -57,55 +29,55 @@ let questions = [
   {
     type: "radiogroup",
     name: "Q2",
-    title: "I am compassionate, soft-hearted",
+    title: "I am helpful and unselfish with others",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "i2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question5",
-    title: "I tend to be disorganized",
+    name: "Q3",
+    title: "I am compassionate, soft-hearted",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "i2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
@@ -113,611 +85,639 @@ let questions = [
   {
     type: "radiogroup",
     name: "Q4",
+    title: "I tend to be disorganized",
+    hasOther: true,
+    choices: [
+      {
+        value: "1",
+        text: "1"
+      },
+      {
+        value: "2",
+        text: "i2"
+      },
+      {
+        value: "3",
+        text: "3"
+      },
+      {
+        value: "4",
+        text: "4"
+      },
+      {
+        value: "5",
+        text: "5"
+      }
+    ]
+  },
+  {
+    type: "radiogroup",
+    name: "Q5",
     title: "I am relaxed and handle stress well.",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "i2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question7",
+    name: "Q6",
     title: "I have few artistic interests",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question6",
+    name: "Q7",
     title: "I have an assertive personality",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question9",
+    name: "Q8",
     title: "I am respectful.  I treat others with respect",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question8",
+    name: "Q9",
     title: "I tend to be lazy",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "i2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question10",
+    name: "Q10",
     title: "I am optimistic after a setback",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question3",
+    name: "Q11",
     title: "I am curious about many different things",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question2",
+    name: "Q12",
     title: "I rarely feel eager or excited",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question1",
+    name: "Q13",
     title: "I tend to find fault with others",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question13",
+    name: "Q14",
     title: "I am dependable, steady",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question12",
+    name: "Q15",
     title: "I am moody and have up and down mood swings",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question11",
+    name: "Q16",
     title: "I am inventive and find clever ways to do things",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "i2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question4",
+    name: "Q17",
     title: "I tend to be quiet",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question16",
+    name: "Q18",
     title: "I feel sympathy for others",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question15",
+    name: "Q19",
     title: "I am systematic and like things in order",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question14",
+    name: "Q20",
     title: "I can be tense",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question17",
+    name: "Q21",
     title: "I am fascinated by art, music and literature",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question22",
+    name: "Q22",
     title: "I am dominant and act as a leader",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question21",
+    name: "Q23",
     title: "I start arguments with others",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question20",
+    name: "Q24",
     title: "I have difficulty starting tasks",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question19",
+    name: "Q25",
     title: "I feel secure and comfortable with self",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question18",
+    name: "Q26",
     title: "I avoid intellectual and philosophical discussions",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "i2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       }
     ],
@@ -725,500 +725,500 @@ let questions = [
   },
   {
     type: "radiogroup",
-    name: "question27",
+    name: "Q27",
     title: "I am less active than other people",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question26",
+    name: "Q28",
     title: "I have a forgiving nature",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question29",
+    name: "Q29",
     title: "I tend to be careless",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question28",
+    name: "Q30",
     title: "I am emotionally stable and not easily upset",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question25",
+    name: "Q31",
     title: "I have little creativity",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question24",
+    name: "Q32",
     title: "I am sometimes shy and introverted",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question23",
+    name: "Q33",
     title: "I am helpful and unselfish with others",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question31",
+    name: "Q34",
     title: "I worry a lot",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question32",
+    name: "Q35",
     title: "I value art and beauty",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question33",
+    name: "Q36",
     title: "I am persistent till the task is finished",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question36",
+    name: "Q37",
     title: "I tend to feel depressed blue",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question35",
+    name: "Q38",
     title: "I am efficient and get things done",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question37",
+    name: "Q39",
     title: "I have little interest in abstract ideas",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question34",
+    name: "Q40",
     title: "I am a complex and deep thinker",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "Q56",
+    name: "Q41",
     title: "I sow great enthusiasm",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "Q57",
+    name: "Q42",
     title: "I assume the best of people",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "i2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question41",
+    name: "Q43",
     title: "I am reliable and can always be counted upon",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "i2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question40",
+    name: "Q44",
     title: "I keep my emotions under control",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       }
     ],
@@ -1231,415 +1231,415 @@ let questions = [
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question42",
+    name: "Q46",
     title: "I am talkative",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question43",
+    name: "Q47",
     title: "I can be cold and uncaring",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "i2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question44",
+    name: "Q48",
     title: "I leave a mess and don't clean up",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question46",
+    name: "Q49",
     title: "I rarely feel anxious and afraid",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question45",
+    name: "Q50",
     title: "I think poetry and plays are boring",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question47",
+    name: "Q51",
     title: "I prefer others to take charge",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question48",
+    name: "Q52",
     title: "I am polite and courteous to others",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question50",
+    name: "Q53",
     title: "I am persistent until the job is done",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question49",
+    name: "Q54",
     title: "I tend to feel depressed",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question52",
+    name: "Q55",
     title: "I have little interest in abstract ideas",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question51",
+    name: "Q56",
     title: "I show a lot of enthusiasm",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question54",
+    name: "Q57",
     title: "I assume the best about people",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question53",
+    name: "Q58",
     title: "I sometimes behave irresponsibly",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question56",
+    name: "Q59",
     title: "I am temperamental and get emotional easily",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "i2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
@@ -1651,51 +1651,51 @@ let questions = [
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "i2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
   },
   {
     type: "radiogroup",
-    name: "question57",
+    name: "Q61",
     title: "I am politically liberal",
     hasOther: true,
     choices: [
       {
-        value: "item1",
+        value: "1",
         text: "1"
       },
       {
-        value: "item2",
+        value: "2",
         text: "2"
       },
       {
-        value: "item3",
+        value: "3",
         text: "3"
       },
       {
-        value: "item4",
+        value: "4",
         text: "4"
       },
       {
-        value: "item5",
+        value: "5",
         text: "5"
       }
     ]
